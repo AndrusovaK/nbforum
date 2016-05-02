@@ -427,6 +427,13 @@ h1, h2, h3, h4, h5, h6, p, ul, li, blockquote, figure {
 	color: #fff;
 	font-style: normal;
 	display: block;
+	text-transform: uppercase;
+}
+
+@media (min-width: 768px){
+	.main-theme__title {
+		font-size: 50px;
+	}
 }
 
 @media (min-width: 992px) {
@@ -475,16 +482,21 @@ h1, h2, h3, h4, h5, h6, p, ul, li, blockquote, figure {
 }
 
 .speakers--hidden {
+	font-size: 0;
 	display: none;
 }
 
+.speakers__wrapper {
+	font-size: 0;
+}
+
 .speaker {
-	float: left;
+	display: inline-block;
+	vertical-align: top;
 	width: 100%;
 	padding: 0 30px 40px 30px;
 	font-size: 24px;
 	line-height: 30px;
-	min-height: 509px;
 }
 
 .speaker a {
@@ -550,8 +562,6 @@ h1, h2, h3, h4, h5, h6, p, ul, li, blockquote, figure {
 		margin-bottom: 60px;
 	}
 
-
-
 	.speakers__wrapper {
 		width: 100%;
 		margin: 0;
@@ -559,7 +569,6 @@ h1, h2, h3, h4, h5, h6, p, ul, li, blockquote, figure {
 
 	.speaker {
 		width: 50%;
-		min-height: 549px;
 	}
 }
 
@@ -572,7 +581,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li, blockquote, figure {
 
 @media (min-width: 1200px) {
 	.speaker {
-		min-height: 360px;
+		/*min-height: 360px;*/
 	}
 }
 
@@ -611,7 +620,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li, blockquote, figure {
 
 @media (min-width: 992px) {
 	.video-block__title {
-		font-size: 6 0px;
+		font-size: 60px;
 	}
 }
 

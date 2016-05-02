@@ -26,7 +26,7 @@ module.exports = {
                 PngSprite: 'dist/img/sprite',
                 PngSpriteCSS: 'src/less/includes',
                 JSVendor: 'dist/js',
-                JSCustom: 'dist/js/custom',
+                JSCustom: 'dist/js',
                 Txt: 'dist/',
                 Clean: ['dist/**/*', '!dist/.gitignore'],
                 Fonts: 'dist/fonts',
