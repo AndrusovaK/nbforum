@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/vendor/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="topmenu">
+    <div class="topmenu__contacts topblock_left">
+      <span class="topmenu__phone">8  (931)  225-37-93</span>
+      <a class="topmenu__email" href="mailto:info@nbfrussia.ru">INFO@NBFORUM.LIVE</a>
+    </div>
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li class="main-nav__item"><a href="#" class="main-nav__link">Спикеры</a></li>
+        <li class="main-nav__item"><a href="#" class="main-nav__link">Отчетное видео</a></li>
+				<li
+						class="main-nav__item"><a href="#price" id="book_button"
+																			class="btn btn--gold main-nav__link buy-btn">Купить билет</a></li>
+      </ul>
+    </nav>
+    <div class="topmenu__logo topblock_right"></div>
+  </div>
+</header>
+
+<main class="main-content">
+  <!--Promo block-->
+  <div class="promo">
+    <div class="promo__inner">
+      <div class="promo__logo clearfix">
+        <img src="img/logo.png" alt="" class="promo__logo-img">
+        <div class="promo__slogan">
+          Маркетинг <br>
+          <span class="promo__slogan--gold">Digital'изация </span><br>
+          Культура
+        </div>
+      </div>
+      <div class="promo__text">Примите участие в одном <br>из самых крупных и значимых		деловых событий в Европе!
+      </div>
+      <div class="buttons">
+        <a href="" class="btn btn--gold">Купить билет</a>
+        <a href="" class="btn btn--white">Консультация</a>
+      </div>
+      <p class="photo-source">Фото с Nordic Business Forum 2014</p>
+    </div>
+
+    <div class="promo__info">
+      <div class="promo__square promo__square--gold">
+        <span class="promo__city">Хельсинки</span>
+        Финляндия
+      </div>
+      <div class="promo__square promo__square--grey">6-9 октября</div>
+      <div class="promo__square promo__square--darkgrey"></div>
+    </div>
+  </div>
+
+  <!--Info block-->
+  <div class="advantage">
+		<div class="container--small">
+			<div class="advantage__item">
+				<div class="advantage__number">5500</div>
+				<p class="advantage__info">Более пяти тысяч участников</p>
+			</div>
+			<div class="advantage__item">
+				<div class="advantage__number">30</div>
+				<p class="advantage__info">Более тридцати национальностей</p>
+			</div>
+			<div class="advantage__item">
+				<div class="advantage__number">98,2</div>
+				<p class="advantage__info">98,2% участников готовы рекомендовать мероприятие</p>
+			</div>
+			<div class="advantage__item">
+				<div class="advantage__number">60</div>
+				<p class="advantage__info">Более 60% участников владельцы бизнеса и топ-менеджмент</p>
+			</div>
+		</div>
+	</div>
+
+
+  <!--Main theme-->
+  <div class="main-theme">
+    Главная тема 2016
+    <span class="main-theme__title">Преимущество</span>
+  </div>
+
+  <!--Speakers-->
+  <section class="speakers">
+    <div class="container">
+
+      <h1 class="speakers__title">Спикеры</h1>
+
+      <div class="speakers__area spikears_fun">
+        <div class="speakers__area-item">
+          <img class="speakers__area-icon" src="svg/q_blue.svg">
+          Диджитал
+        </div>
+        <div class="speakers__area-item">
+          <img class="speakers__area-icon" src="svg/q_green.svg">
+          Культура
+        </div>
+        <div class="speakers__area-item">
+          <img class="speakers__area-icon" src="svg/q_red.svg">
+          Маркетинг
+        </div>
+      </div>
+
+      <div class="speakers__wrapper clearfix">
+        <!--speaker start-->
+        <div class="speaker">
+          <a href="#speaker_1" style="color:#000;" onclick="openSpeaker(this); return false;">
+            <div class="speaker_photo">
+              <img src="img/people/godin.jpg">
+              <div class="speaker_q red"></div>
+            </div>
+            Сет<br>Годин
+            <div class="speaker_dol">
+              Самый известный блогер-маркетолог
+            </div>
+          </a>
+
+          <!-- description -->
+
+          <div class="people_descr" id="speaker_1_block">
+            <div class="pop_photo"><img src="img/people/godin.jpg"></div>
+            <div class="pop_name">Сет Годин</div>
+            <div class="speaker_dol" style="width:80%; margin:0 auto;">
+              Самый известный блогер-маркетолог
+            </div>
+            <div class="pop_line"></div>
+            <div class="pop_about">
+              Автор 18 бизнес-бестселлеров («Яма», «Фиолетовая корова»). Предприниматель и маркетолог. Его блог – самый популярный в мире блог о маркетинге.
+            </div>
+          </div>
+        </div>
+        <!-- speaker end -->
+
+        <!--speaker start-->
+        <div class="speaker">
+          <a href="#speaker_2" style="color:#000;" onclick="openSpeaker(this); return false;">
+            <div class="speaker_photo">
+              <img src="img/people/tony.jpg">
+              <div class="speaker_q red"></div>
+            </div>
+            Тони<br>Хоук
+            <div class="speaker_dol">
+              Человек-бренд в мире спорта
+            </div>
+          </a>
+
+          <!-- description -->
+
+          <div class="people_descr" id="speaker_2_block">
+            <div class="pop_photo"><img src="img/people/tony.jpg"></div>
+            <div class="pop_name">Тони Хоук</div>
+            <div class="speaker_dol" style="width:80%; margin:0 auto;">
+              Человек-бренд в мире спорта
+            </div>
+            <div class="pop_line"></div>
+            <div class="pop_about">
+              Чемпион мира по скейтбордингу на протяжении 12 лет. Создатель успешных франшиз, в том числе Tony Hawk’s Pro Skater (популярнейшая видеоигра с оборотом более 1,4 млрд. долларов), а также серию Tony Hawk Signature (спортивная одежда и игрушки).
+            </div>
+          </div>
+        </div>
+        <!-- speaker end -->
+
+        <!--speaker start-->
+        <div class="speaker">
+          <a href="#speaker_3" style="color:#000;" onclick="openSpeaker(this); return false;">
+            <div class="speaker_photo">
+              <img src="img/people/kad.jpg">
+              <div class="speaker_q green"></div>
+            </div>
+            Эд<br>Катмулл
+            <div class="speaker_dol">
+              Президент Walt Disney и&nbsp;Pixar Animation Studios
+            </div>
+          </a>
+
+          <!-- description -->
+          <div class="people_descr" id="speaker_3_block">
+            <div class="pop_photo"><img src="img/people/kad.jpg"></div>
+            <div class="pop_name">Эд Катмулл</div>
+            <div class="speaker_dol" style="width:80%; margin:0 auto;">
+              Президент Walt Disney и Pixar Animation Studios
+            </div>
+            <div class="pop_line"></div>
+            <div class="pop_about">
+              Внес огромный вклад в современный кинематограф, разработав технические основы анимации и других разработок. Автор книги об эффективной работе с творческими людьми “Корпорация гениев: Как управлять командой творческих людей”.
+            </div>
+          </div>
+        </div>
+        <!-- speaker end -->
+
+        <!--speaker start-->
+        <div class="speaker">
+          <a href="#speaker_5" style="color:#000;" onclick="openSpeaker(this); return false;">
+            <div class="speaker_photo">
+              <img src="img/people/dik.jpg">
+              <div class="speaker_q blue"></div>
+            </div>
+            Дик<br>Костоло
+            <div class="speaker_dol">
+              экс-CEO Twitter<br>(2010-2015)
+            </div>
+          </a>
+
+          <!-- description -->
+
+          <div class="people_descr" id="speaker_5_block">
+            <div class="pop_photo"><img src="img/people/dik.jpg"></div>
+            <div class="pop_name">Дик Костоло</div>
+            <div class="speaker_dol" style="width:80%; margin:0 auto;">
+              экс-CEO Twitter (2010-2015)
+            </div>
+            <div class="pop_line"></div>
+            <div class="pop_about">
+              Под его руководством Twitter вырос из скромного проекта в международную компанию с десятками офисов по всему миру и оборотом свыше 1,5 миллиардов $ в 2014 году. До Twitter основал ряд компаний, в том числе в FeedBurner, который был приобретен компанией Google в июне 2007 года
+            </div>
+          </div>
+        </div>
+        <!-- speaker end -->
+      </div>
+
+      <div class="speakers--hidden clearfix">
+        <!--speaker start-->
+        <div class="speaker">
+          <a href="#speaker_4" style="color:#000;" onclick="openSpeaker(this); return false;">
+            <div class="speaker_photo">
+              <img src="img/people/piter.jpg">
+              <div class="speaker_q blue"></div>
+            </div>
+            Питер<br>Диамандис
+            <div class="speaker_dol">
+              Основатель ряда компаний, направленных на улучшение жизни человечества
+            </div>
+          </a>
+
+          <!-- description -->
+
+          <div class="people_descr" id="speaker_4_block">
+            <div class="pop_photo"><img src="img/people/piter.jpg"></div>
+            <div class="pop_name">Питер Диамандис</div>
+            <div class="speaker_dol" style="width:80%; margin:0 auto;">
+              Основатель ряда компаний, направленных на улучшение жизни человечества
+            </div>
+            <div class="pop_line"></div>
+            <div class="pop_about">
+              Основатель фонда XPRIZE  (поддержка революционных инноваций), Human Longevity Inc. (изучение генотипов для увеличения продолжительности жизни), Университет  Сингулярности (изучение и использование силы экспоненциальных технологий для ответа на самые важные вызовы человечества). Соавтор книги “Изобилие: будущее лучше, чем вы думаете”.
+            </div>
+          </div>
+        </div>
+        <!-- speaker end -->
+
+        <!--speaker start-->
+        <div class="speaker">
+          <a href="#speaker_6" style="color:#000;" onclick="openSpeaker(this); return false;">
+            <div class="speaker_photo">
+              <img src="img/people/vay.jpg">
+              <div class="speaker_q red"></div>
+            </div>
+            Гари<br>Вайнерчук
+            <div class="speaker_dol">
+              Предприниматель и&nbsp;инвестор
+            </div>
+          </a>
+
+          <!-- description -->
+
+          <div class="people_descr" id="speaker_6_block">
+            <div class="pop_photo"><img src="img/people/vay.jpg"></div>
+            <div class="pop_name">Гари Вайнерчук</div>
+            <div class="speaker_dol" style="width:80%; margin:0 auto;">
+              Предприниматель и инвестор
+            </div>
+            <div class="pop_line"></div>
+            <div class="pop_about">
+              Увеличил семейный винный бизнес с 3 до 60 млн. долларов, выведя его онлайн (WineLibrary.com). Управляет диджитал агентством VaynerMedia ( среди клиентов GE и PepsiCo). Автор бестселлера «Crush It!: Why NOW Is the Time to Cash In on Your Passion» (можно перевести как «Сделай это! Почему сейчас самое время разбогатеть, делая то, что ты любишь»). Автор шоу #AskGaryVee – серии видео и подкастов о социальных сетях, лидерстве, стартапах и семейном бизнесе.
+            </div>
+          </div>
+        </div>
+        <!-- speaker end -->
+
+        <!--speaker start-->
+        <div class="speaker">
+          <a href="#speaker_8" style="color:#000;" onclick="openSpeaker(this); return false;">
+            <div class="speaker_photo">
+              <img src="img/people/nayar.jpg">
+              <div class="speaker_q green"></div>
+            </div>
+            Винет<br>Наяр
+            <div class="speaker_dol">
+              Успешный азиатский управленец, автор книг и&nbsp;филантроп
+            </div>
+          </a>
+
+          <!-- description -->
+
+          <div class="people_descr" id="speaker_8_block">
+            <div class="pop_photo"><img src="img/people/nayar.jpg"></div>
+            <div class="pop_name">Винет Наяр</div>
+            <div class="speaker_dol" style="width:80%; margin:0 auto;">
+              Успешный азиатский управленец, автор книг и филантроп
+            </div>
+            <div class="pop_line"></div>
+            <div class="pop_about">
+              Экс-президент индийской компании HCL Technologies, IT-предприятия индийского происхождения известного своим инновационным демократичным подходом к организации. Сегодня HCL – компания с штатом более 100 000 сотрудников, которая работает в 32 странах. Винет - автор книги и философии “Employees First, Customers Second” (“Сначала сотрудники, затем клиенты”)
+            </div>
+          </div>
+        </div>
+        <!-- speaker end -->
+
+        <!--speaker start-->
+        <div class="speaker">
+          <a href="#speaker_9" style="color:#000;" onclick="openSpeaker(this); return false;">
+            <div class="speaker_photo">
+              <img src="img/people/jessica.jpg">
+              <div class="speaker_q green"></div>
+            </div>
+            Джессика<br>Джэкли
+            <div class="speaker_dol">
+              Соучредитель KIVA, первого в&nbsp;мире сайта по предоставлению микро-кредитов
+            </div>
+          </a>
+
+          <!-- description -->
+
+          <div class="people_descr" id="speaker_9_block">
+            <div class="pop_photo"><img src="img/people/jessica.jpg"></div>
+            <div class="pop_name">Джессика Джэкли</div>
+            <div class="speaker_dol" style="width:80%; margin:0 auto;">
+              Соучредитель KIVA, первого в мире сайта по предоставлению микро-кредитов
+            </div>
+            <div class="pop_line"></div>
+            <div class="pop_about">
+              KIVA позволяет предпринимателям брать кредиты от 25 долларов (работает в 206 странах, уже выдано более 700 млн долларов кредитов), тем самым давая шанс даже самым бедным предпринимателям найти капитал для небольшого дела. Эта идея названа одной из лучших в 2006 году по версии журнала “The New York Times”. Джессика также является автором книги “Clay Water Brick: Finding Inspiration from Entrepreneurs Who Do the Most with the Least” ( не переведена на русский ).
+            </div>
+          </div>
+
+          <!-- end -->
+        </div>
+        <!-- speaker end -->
+
+        <!--speaker start-->
+        <div class="speaker">
+          <a href="#speaker_10" style="color:#000;" onclick="openSpeaker(this); return false;">
+            <div class="speaker_photo">
+              <img src="img/people/scott.jpg">
+              <div class="speaker_q blue"></div>
+            </div>
+            Скотт<br>Галлоуэй
+            <div class="speaker_dol">
+              Эксперт в&nbsp;вопросах стратегии бренда (работает с&nbsp;Chanel и&nbsp;Four Season)
+            </div>
+          </a>
+
+          <!-- description -->
+
+          <div class="people_descr" id="speaker_10_block">
+            <div class="pop_photo"><img src="img/people/scott.jpg"></div>
+            <div class="pop_name">Скотт Галлоуэй</div>
+            <div class="speaker_dol" style="width:80%; margin:0 auto;">
+              Эксперт в вопросах стратегии бренда (работает с Chanel и Four Season)
+            </div>
+            <div class="pop_line"></div>
+            <div class="pop_about">
+              Профессор маркетинга в NYU Stern School of Business, обучает стратегии брендов и диджитал маркетингу. Советник компаний от LVMH и Chanel до Four Season. Учредитель Red Envelop, интернет-компании по покупке подарков с оборотом 120 миллионов долларов.
+            </div>
+          </div>
+
+          <!-- end -->
+        </div>
+        <!-- speaker end -->
+      </div>
+
+      <a href="#" class="btn">Все спикеры</a>
+
+    </div>
+    <!--container end-->
+  </section>
+
+  <div class="video-block">
+    <p class="video-block__title">Как это было в 2015 году</p>
+    <a href="#" class="btn btn--gold">Смотреть видео</a>
+  </div>
+
+  <!--Tickets' prices-->
+  <section class="tickets" id="price">
+    <div class="container">
+      <h1 class="tickets__title">Варианты участия</h1>
+      <div class="ticket-item">
+        <div class="ticket-item__inner">
+          <p class="ticket__type">Билет в сектор 1</p>
+          <ul class="ticket__features">
+            <li class="ticket__feature-item">Участие в 2х днях форума <span class="slash">/</span> Место в секторе 1</li>
+            <li class="ticket__feature-item">Кофе и ланчи</li>
+            <li class="ticket__feature-item">Гарнитура для синхронного перевода</li>
+          </ul>
+        </div>
+        <div class="ticket__info">
+          <div class="ticket__price">1488 &#8364;&#42;</div>
+          <a href="" class="ticket__buy">Купить билет</a>
+        </div>
+      </div>
+
+      <div class="ticket-item">
+        <div class="ticket-item__inner">
+          <p class="ticket__type">Билет в сектор 2</p>
+          <ul class="ticket__features">
+            <li class="ticket__feature-item">Участие в 2х днях форума <span class="slash">/</span> Место в секторе 1</li>
+            <li class="ticket__feature-item">Кофе и ланчи</li>
+            <li class="ticket__feature-item">Гарнитура для синхронного перевода</li>
+          </ul>
+        </div>
+        <div class="ticket__info">
+          <div class="ticket__price">1142 &#8364;&#42;</div>
+          <a href="" class="ticket__buy">Купить билет</a>
+        </div>
+      </div>
+
+      <div class="ticket-item">
+        <div class="ticket-item__inner">
+          <p class="ticket__type">VIP билет</p>
+          <ul class="ticket__features">
+            <li class="ticket__feature-item">Участие в 2х днях форума <span class="slash">/</span> Место в VIP секторе</li>
+            <li class="ticket__feature-item">Кофе и ланчи</li>
+            <li class="ticket__feature-item">VIP-сессия с Сетом Годиным</li>
+            <li class="ticket__feature-item">30-дневный доступ к записям выступлений</li>
+            <li class="ticket__feature-item">Гарнитура для синхронного перевода</li>
+          </ul>
+        </div>
+        <div class="ticket__info">
+          <div class="ticket__price">2295 &#8364;&#42;</div>
+          <a href="" class="ticket__buy">Купить билет</a>
+        </div>
+      </div>
+
+      <div class="ticket-item">
+        <div class="ticket-item__inner">
+          <p class="ticket__type">Первый Класс</p>
+          <ul class="ticket__features">
+            <li class="ticket__feature-item">Все опции VIP билета + Место в первых 2х рядах</li>
+            <li class="ticket__feature-item">Доступ к лаунж-зоне для Первого Класса <span class="slash">/</span> Сессия Вопрос-Ответ с Винетом Наяр</li>
+            <li class="ticket__feature-item">Фото-сессия с Гари Вейнерчуком <span class="slash">/</span> Фото сессия с Диком Костоло</li>
+            <li class="ticket__feature-item">Фото сессия с Питером Диамандисом <span class="slash">/</span> Фото сессия с Эдом Катмуллом.</li>
+            <li class="ticket__feature-item">Гарнитура для синхронного перевода</li>
+          </ul>
+        </div>
+        <div class="ticket__info">
+          <div class="ticket__price">1488 &#8364;&#42;</div>
+          <a href="" class="ticket__buy">Купить билет</a>
+        </div>
+      </div>
+
+      <p class="tickets__moreinfo">&#42; По курсу ЦБ РФ +2% на день выставления счета </p>
+      <p class="tickets__moreinfo">Вопросы по приобретению билетов отправляйте на e-mail:
+        <a class="tickets__email" href="mailto:info@nbfrussia.ru">info@nbforum.live</a>
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container--small">
+    <p class="footer__info">Если у Вас нет возможности поехать в Хельсинки, Вы можете принять участие
+      в NBForum LIVE в Петербурге с прямыми включениями с основного Форума.
+    </p>
+    <a href="#" class="btn">Перейти на сайт</a>
+  </div>
+
+</footer>
+
+
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/jquery.magnific-popup.js"></script>
+<script src="js/vendor/vendor-bundle.js"></script>
+</body>
+</html>
