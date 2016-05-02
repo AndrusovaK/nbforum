@@ -130,12 +130,35 @@ h1, h2, h3, h4, h5, h6, p, ul, li, blockquote, figure {
 	background-size: contain;
 }
 
+.main-nav__list {
+	font-size: 0;
+}
+
 .main-nav__item {
+	font-size: 16px;
+	margin: 0 10px;
 	display: none;
+	position: relative;
 }
 
 .main-nav__item:last-child {
 	display: block;
+}
+
+.main-nav__link {
+	height: 50px;
+	display: block;
+	position: relative;
+}
+
+.main-nav__item--active:before {
+	content: '';
+	position: absolute;
+	height: 6px;
+	width: 100%;
+	background-color: #BF8B47;
+	left: 0;
+	top: -2px;
 }
 
 #book_button {
@@ -143,9 +166,12 @@ h1, h2, h3, h4, h5, h6, p, ul, li, blockquote, figure {
 }
 
 @media (min-width: 992px) {
+	.topmenu {
+		height: 50px;
+	}
+
 	.main-nav__item {
 		display: inline-block;
-		margin: 0 10px;
 	}
 	.main-nav__item:last-child {
 		display: inline-block;
@@ -153,11 +179,6 @@ h1, h2, h3, h4, h5, h6, p, ul, li, blockquote, figure {
 }
 
 @media (min-width: 1200px) {
-	.main-nav__item {
-		display: inline-block;
-
-	}
-
 	.topmenu__contacts {
 		display: block;
 	}
