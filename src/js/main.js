@@ -56,3 +56,18 @@ $(function(){
 	$(window).scroll();
 
 });
+
+function openSpeaker(elem){
+	$($(elem).attr("href") + "_block").popUp();
+}
+
+function openRegister(elem, value){
+
+	if(value != ""){
+		opt = document.getElementById("option_" + value);
+		opt.selected = true;
+	}
+
+	$($(elem).attr("href") + "_block").popUp();
+
+}

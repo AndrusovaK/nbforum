@@ -45,7 +45,7 @@
       </div>
       <div class="buttons">
         <a href="#tickets" class="btn btn--gold buy-ticket">Купить билет</a>
-        <a href="" class="btn btn--white">Консультация</a>
+        <a href="#bein" class="btn btn--white" target="_blank" onclick="openRegister(this, ''); return false;">Консультация</a>
       </div>
       <p class="photo-source">Фото с Nordic Business Forum 2014</p>
     </div>
@@ -463,6 +463,33 @@
       </p>
     </div>
   </section>
+
+  <!--Popup's-->
+
+  <!--<div id="register_block" style="display: none; text-align: left; padding: 0px 0px; margin: -60px 0px;">
+    <?include 'register_form.php';?>
+  </div>-->
+
+  <div id="bein_block" style="display: none; text-align: left; padding: 0px 0px; margin: -60px 0px;">
+
+    <div class="reg_container">
+      <form id="beform" action="" method="post">
+        <div class="members_container">
+          <div class="member_block">
+            <div class="title">Хочу быть в курсе событий</div>
+            <div class="pop_line"></div>
+            <input required type="text" name="name" placeholder="Имя" class="text_field" value=""><br>
+            <input required type="email" name="email" placeholder="E-mail" class="text_field" value=""><br>
+            <input required type="text" name="phone" placeholder="Телефон" class="phone text_field" value=""><br>
+          </div>
+        </div>
+
+        <div class="cle" style="clear: both;"></div>
+        <input class="submit_reg_button" type="submit" value="Оставить заявку" onclick="ga('send', 'event', 'button', 'click', 'leave_a_request'); yaCounter35786595.reachGoal('click-button-leave_a_request'); return true;">
+      </form>
+    </div>
+  </div>
+
 </main>
 
 <footer class="footer">

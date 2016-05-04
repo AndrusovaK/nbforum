@@ -45,7 +45,7 @@
 			}
 			
 			
-			$(close_button).html('<img src="/img/close.svg">');
+			$(close_button).html('<img src="svg/close.svg">');
 			
 			
 			$(close_button).click(function(){
