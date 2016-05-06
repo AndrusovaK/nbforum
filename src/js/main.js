@@ -49,9 +49,15 @@ $(function(){
 					thisLink.removeClass("main-nav__item--active");
 				}
 			});
-		});
 
 		//parallax
+		sct = $(window).scrollTop();
+		oft = $("#parallax_pic").offset().top;
+
+		pos = 50 + (1 - (oft/sct))*30;
+		$("#parallax_pic").css("background-position", "50% " + pos + "%");
+
+	});
 
 	$(window).scroll();
 
